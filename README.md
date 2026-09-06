@@ -44,7 +44,7 @@ Always learning, always building.
 ### 📈 Contribution Graph
 
 <p align="center">
-  <img width="100%" src="https://github-readme-activity-graph-gold-gamma.vercel.app/graph?username=Ricieri-Vasconcellos&bg_color=00000000&color=2ea043&line=2ea043&point=c9d1d9&area=true&hide_border=true" alt="activity graph" />
+  <img width="100%" src="https://github-readme-activity-graph-gold-gamma.vercel.app/graph?username=Ricieri-Vasconcellos&bg_color=00000000&color=6e5494&line=6e5494&point=c9d1d9&area=true&hide_border=true" alt="activity graph" />
 </p>
 
 ### 💭 Dev Quote
