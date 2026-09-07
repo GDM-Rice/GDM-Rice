@@ -4,8 +4,15 @@
   </a>
 </p>
 
-<p align="center">
+<p>
+<align="center"/>
   <img src="https://readme-typing-svg.demolab.com?font=Caveat&weight=600&size=26&pause=1000&color=a371f7&center=true&vCenter=true&width=790&height=44&lines=I%20am%20an%20enthusiast%20in%20cybersecurity%20and%20databases." alt="Typing headlines" />
+</p>
+
+<p align="center">
+<img src="https://komarev.com/ghpvc/?username=Ricieri-Vasconcellos&style=plastic&color=blueviolet&abbreviated=true&base=11&label=Views"/>
+<img src="https://img.shields.io/github/followers/Ricieri-Vasconcellos?style=plastic&color=blueviolet&label=followers"/>
+
 </p>
 
 ### 🚀 About Me
