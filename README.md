@@ -1,4 +1,7 @@
 <p align="center">
+<<<<<<< HEAD
+  <img src="./src/assets/svgs/banner.svg" width="100%" alt="Ricieri Bash Profile" />
+=======
   <a href="https://github.com/Ricieri-Vasconcellos">
     <img src="https://capsule-render.vercel.app/api?type=transparent&fontColor=6e5494&fontSize=54&height=90&width=1082&text=Hello!%20I'm%20Ricieri%20Vasconcellos" alt="Hello! I&#39;m Ricieri Vasconcellos" />
   </a>
@@ -7,6 +10,7 @@
 <p>
 <align="center"/>
   <img src="https://readme-typing-svg.demolab.com?font=Caveat&weight=600&size=26&pause=1000&color=a371f7&center=true&vCenter=true&width=790&height=44&lines=I%20am%20an%20enthusiast%20in%20cybersecurity%20and%20databases." alt="Typing headlines" />
+>>>>>>> 33b5941c3dc70a71c0677930c96e676c926815df
 </p>
 
 <p align="center">
@@ -18,27 +22,22 @@
 ### 🚀 About Me
 
 🧑‍💻 Software Engineer | Clean code &amp; organized systems.  
-☕ Coffee snob · 🎸 Rock enthusiast · 📚 Anime &amp; HQ collector.  
+☕ Coffee snob · 🎸 Rock enthusiast ·🫆 Cybersecurity ·🗃️ Databases · 📚 Anime &amp; HQ collector.
 Always learning, always building.
 
 🌱 &nbsp;I'm currently learning **Responsive Web Design**  
 😄 &nbsp;Pronouns: **he/him**
 
-### 🛠️ Tech Stack
+### 🛠️ Tech Skills
 
-<p align="left">
-  <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black" alt="C" />
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=java,c,html,linux,git,github&theme=dark" />
 </p>
 
 ### 🔗 Connect With Me
 
 <p align="left">
-  <a href="https://www.linkedin.com/in/ricieri-vieira/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://www.linkedin.com/in/ricieri-vieira/"><img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn" /></a>
 </p>
 
 ### 📊 GitHub Stats
