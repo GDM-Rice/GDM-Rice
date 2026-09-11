@@ -1,0 +1,115 @@
+<svg viewBox="0 0 900 200" xmlns="http://www.w3.org/2000/svg">
+<defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1A0B2E"/>
+      <stop offset="100%" stop-color="#2D1650"/>
+    </linearGradient>
+ 
+    <!-- MÁSCARA ANIMADA: Controla a largura revelada do texto e simula o Backspace -->
+    <clipPath id="typing-clip">
+      <rect x="210" y="150" height="30" width="0">
+        <animate attributeName="width"
+                 values="0; 77; 77; 58; 58; 77; 77; 0; 0; 115; 115; 77; 77; 163; 163; 0; 0; 192; 192; 154; 154; 269; 269; 0; 0; 77; 77; 67; 67; 192; 192; 0; 0"
+                 keyTimes="0; 0.04; 0.06; 0.07; 0.08; 0.10; 0.15; 0.16; 0.18; 0.24; 0.26; 0.28; 0.29; 0.36; 0.41; 0.42; 0.44; 0.52; 0.54; 0.56; 0.57; 0.65; 0.72; 0.73; 0.75; 0.79; 0.81; 0.82; 0.83; 0.92; 0.98; 0.99; 1"
+                 dur="20s" repeatCount="indefinite" />
+      </rect>
+    </clipPath>
+  </defs>
+ 
+  <rect width="900" height="200" rx="10" fill="url(#bg)"/>
+ 
+  <!-- Ícone de git branch em formato de Y -->
+  <g opacity="0.55" stroke="#A78BFA" stroke-width="4" fill="none" stroke-linecap="round">
+    <!-- Tronco: nó de baixo até o nó superior direito -->
+    <path d="M 790 150 L 790 65"/>
+    <!-- Ramo: nó de baixo curva até o nó superior esquerdo -->
+    <path d="M 790 150 C 790 105 758 105 758 65"/>
+  </g>
+  <g fill="#2D1650" stroke="#C084FC" stroke-width="4">
+    <circle cx="790" cy="150" r="7"/>
+    <circle cx="758" cy="65" r="7"/>
+    <circle cx="790" cy="65" r="7"/>
+  </g>
+ 
+  <!-- Barra do topo -->
+  <rect x="0" y="0" width="900" height="30" rx="10" fill="#4C1D95"/>
+  <rect x="0" y="20" width="900" height="10" fill="#4C1D95"/>
+  <circle cx="22" cy="15" r="5" fill="#7C3AED"/>
+  <circle cx="42" cy="15" r="5" fill="#C084FC"/>
+  <circle cx="62" cy="15" r="5" fill="#3B0764"/>
+  <text x="90" y="19" font-family="ui-monospace, 'Cascadia Code', 'Fira Code', monospace" font-size="12" fill="#C4B5FD">bash — Rice</text>
+ 
+  <!-- Bloco estático (topo) -->
+  <text x="40" y="72" font-family="ui-monospace, 'Cascadia Code', 'Fira Code', monospace" font-size="16" fill="#C4B5FD">
+    <tspan fill="#C084FC">ricieri</tspan>@<tspan fill="#C4B5FD">github</tspan>:whois ~/ricieri/
+  </text>
+ 
+  <text x="40" y="115" font-family="ui-monospace, 'Cascadia Code', 'Fira Code', monospace" font-size="32" font-weight="700" fill="#F5F3FF">
+    Ricieri Artur Vasconcellos Vieira
+  </text>
+ 
+  <text x="40" y="145" font-family="ui-monospace, 'Cascadia Code', 'Fira Code', monospace" font-size="16" fill="#C4B5FD">
+    Software Engineer
+  </text>
+ 
+  <!-- Linha de comando dinâmica -->
+  <text x="40" y="172" font-family="ui-monospace, 'Cascadia Code', 'Fira Code', monospace" font-size="16" fill="#C4B5FD">
+    <tspan fill="#C084FC">ricieri</tspan>@<tspan fill="#C4B5FD">github</tspan>:~$
+  </text>
+ 
+  <!-- Textos que aparecem e desaparecem com a máscara -->
+  <g clip-path="url(#typing-clip)">
+    
+    <!-- 1. git int -> git init -->
+    <text x="210" y="172" font-family="ui-monospace, 'Cascadia Code', 'Fira Code', monospace" font-size="16" fill="#F5F3FF">
+      <animate attributeName="opacity" values="1; 1; 0; 0" keyTimes="0; 0.069; 0.07; 1" dur="20s" repeatCount="indefinite"/>
+      git int
+    </text>
+    <text x="210" y="172" font-family="ui-monospace, 'Cascadia Code', 'Fira Code', monospace" font-size="16" fill="#F5F3FF">
+      <animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.069; 0.07; 0.159; 0.16; 1" dur="20s" repeatCount="indefinite"/>
+      git init
+    </text>
+ 
+    <!-- 2. git add . -> git add README.md -->
+    <text x="210" y="172" font-family="ui-monospace, 'Cascadia Code', 'Fira Code', monospace" font-size="16" fill="#F5F3FF">
+      <animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.159; 0.16; 0.279; 0.28; 1" dur="20s" repeatCount="indefinite"/>
+      git add .
+    </text>
+    <text x="210" y="172" font-family="ui-monospace, 'Cascadia Code', 'Fira Code', monospace" font-size="16" fill="#F5F3FF">
+      <animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.279; 0.28; 0.419; 0.42; 1" dur="20s" repeatCount="indefinite"/>
+      git add README.md
+    </text>
+ 
+    <!-- 3. git commit -m "Initial -> git commit -m "Hello World!" -->
+    <text x="210" y="172" font-family="ui-monospace, 'Cascadia Code', 'Fira Code', monospace" font-size="16" fill="#F5F3FF">
+      <animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.419; 0.42; 0.559; 0.56; 1" dur="20s" repeatCount="indefinite"/>
+      git commit -m "Initial
+    </text>
+    <text x="210" y="172" font-family="ui-monospace, 'Cascadia Code', 'Fira Code', monospace" font-size="16" fill="#F5F3FF">
+      <animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.559; 0.56; 0.729; 0.73; 1" dur="20s" repeatCount="indefinite"/>
+      git commit -m "Hello World!"
+    </text>
+ 
+    <!-- 4. git pusg -> git push origin main -->
+    <text x="210" y="172" font-family="ui-monospace, 'Cascadia Code', 'Fira Code', monospace" font-size="16" fill="#F5F3FF">
+      <animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.729; 0.73; 0.819; 0.82; 1" dur="20s" repeatCount="indefinite"/>
+      git pusg
+    </text>
+    <text x="210" y="172" font-family="ui-monospace, 'Cascadia Code', 'Fira Code', monospace" font-size="16" fill="#F5F3FF">
+      <animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.819; 0.82; 0.989; 0.99; 1" dur="20s" repeatCount="indefinite"/>
+      git push origin main
+    </text>
+ 
+  </g>
+ 
+  <!-- Cursor Roxo Dinâmico -->
+  <rect x="210" y="158" width="10" height="18" fill="#C084FC">
+    <!-- Posição = 210 (início do texto) + largura revelada pelo clip-path, sincronizado com cada comando -->
+    <animate attributeName="x"
+             values="210; 277; 277; 268; 268; 287; 287; 210; 210; 296; 296; 287; 287; 373; 373; 210; 210; 421; 421; 364; 364; 479; 479; 210; 210; 287; 287; 277; 277; 402; 402; 210; 210"
+             keyTimes="0; 0.04; 0.06; 0.07; 0.08; 0.10; 0.15; 0.16; 0.18; 0.24; 0.26; 0.28; 0.29; 0.36; 0.41; 0.42; 0.44; 0.52; 0.54; 0.56; 0.57; 0.65; 0.72; 0.73; 0.75; 0.79; 0.81; 0.82; 0.83; 0.92; 0.98; 0.99; 1"
+             dur="20s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="1;0;1" dur="0.8s" repeatCount="indefinite"/>
+  </rect>
+ 
+</svg>
