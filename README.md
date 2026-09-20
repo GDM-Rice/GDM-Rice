@@ -19,7 +19,7 @@ Always learning, always building.
 
 ### 🔗 Connect With Me
 
-<p align="left">
+<p align="center">
   <a href="https://www.linkedin.com/in/ricieri-vieira/"><img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn" /></a>
 </p>
 
